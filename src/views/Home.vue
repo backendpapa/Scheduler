@@ -61,7 +61,7 @@
     </div>
   </div>
   <v-row >
-      <v-col cols="12" xl="3" lg="3" v-for="i in 24" :key="i">
+      <v-col cols="12" xl="3" sm="4" lg="3" v-for="i in 4" :key="i">
         <v-card class="pa-2 " flat>
           <v-chip color="blue" class="mb-2" dark small>RUNNING</v-chip>
           <p class="font-weight-bold">Sed ut perpspecitis</p>
@@ -91,6 +91,13 @@
     components: {
      
     },
+    data(){
+      return {
+        items:[
+          {title:""}
+        ]
+      }
+    }
   }
 </script>
 <style>
