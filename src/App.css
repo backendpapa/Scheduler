@@ -1,0 +1,10 @@
+#app{
+    background-color: #ECF0F3;
+}
+html,body{
+    background-color: #ECF0F3;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+  
