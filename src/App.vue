@@ -12,15 +12,16 @@
       <v-spacer></v-spacer>
 
       <v-btn color="#70D25F" style="text-transform:none" class="text-caption" dark>Create <v-icon>mdi-chevron-down</v-icon></v-btn>
-      <v-btn plain class="ml-4 mr-2" small icon><v-icon>mdi-bell-badge-outline</v-icon></v-btn>
+      <v-btn plain class="ml-2" small icon><v-icon>mdi-bell-badge-outline</v-icon></v-btn>
 
     </v-app-bar>
 
     <v-navigation-drawer
-        permanent
+        
         width="200"
         color="#0286C2"
         app
+        class="d-none d-sm-flex"
       >
        <div style="height:10.3vh;background-color:#0078AE;color:white" class="">
          <v-row no-gutters style="height:100%" align="center" justify="center">
